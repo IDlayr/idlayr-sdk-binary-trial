@@ -1,0 +1,32 @@
+# macOS system files
+.DS_Store
+
+# Xcode
+*.xcworkspace
+*.xcuserstate
+*.xcscmblueprint
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcshareddata/xcschememanagement.plist
+
+# Derived data & build
+DerivedData/
+build/
+
+# Swift Package Manager
+.swiftpm/
+.build/
+Package.resolved
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Binary Artifacts
+*.xcframework.zip
+
+# Temporary/editor files
+*.swp
+*.swo
+*~
+*.orig
